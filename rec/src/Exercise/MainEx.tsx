@@ -7,6 +7,9 @@ import Counter from "./UseState/Counter";
 import User from "../Components/User";
 import Object from "./UseState/Object";
 import Todos from "./UseState/Todos";
+import Form from "./useRef/Form";
+import FocusInput from "./useRef/FocusInput";
+import ContactForm from "./useRef/ContactForm";
 function MainEx() {
     const [show, setShow] = useState(true); 
 
@@ -32,7 +35,7 @@ function MainEx() {
     }
     return (
         <div>
-                  <div className='m-2 text-[35px] font-mono text-gray-950'>1. Props Exercise</div>
+                  {/* <div className='m-2 text-[35px] font-mono text-gray-950'>1. Props Exercise</div>
 
             <User name="sarvesh" age={12} heading= "Prop Component"></User>
             <PropEx 
@@ -47,6 +50,9 @@ function MainEx() {
             <Counter></Counter>
             <Object />
             <Todos></Todos>
+            <Form></Form> */}
+            <FocusInput></FocusInput>
+            <ContactForm></ContactForm>
         </div>
     );
 }

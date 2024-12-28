@@ -22,7 +22,7 @@ function Todos() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-4">
+    <div className="flex flex-col items-center justify-center mt-10 p-5 bg-gray-100 p-4">
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-6">
         <h2 className="text-xl font-bold text-gray-800 mb-4">Todo List</h2>
         <div className="flex space-x-2 mb-4">

@@ -6,11 +6,11 @@ function App() {
   const github_sarvesh ="https://github.com/susisarvesh/React.Typescript"
   return (
     <div>
-      <div className='flex justify-center items-center text-[40px] bg-slate-200 shadow-sm p-2 font-thin border border-b-2'>React + TypeScript <a href={github_sarvesh} target='_blank'><span className='font-semibold text-red-600 ml-2 hover:text-blue-500'> @susisarvesh</span></a></div>
+      <div className='flex justify-center items-center text-[40px] bg-slate-200 shadow-sm p-2 font-thin border border-b-2'>React + TypeScript <a href={github_sarvesh} target='_blank'><span className='ml-2 font-semibold text-red-600 hover:text-blue-500'> @susisarvesh</span></a></div>
       
       
       <MainEx />
-            <div className='m-2 text-[35px] font-mono text-gray-950'>2. Children Exercise</div>
+            {/* <div className='m-2 text-[35px] font-mono text-gray-950'>2. Children Exercise</div>
 
       <Children>
         <div>
@@ -18,7 +18,7 @@ function App() {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore sed porro labore, hic rem, eos eveniet sint consequuntur id exercitationem unde. Voluptas enim ad magnam placeat eveniet! Numquam, fugit eius?</p>
         </div>
 
-      </Children>
+      </Children> */}
       
     </div>
   )

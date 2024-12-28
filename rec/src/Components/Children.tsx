@@ -6,7 +6,7 @@ interface Child {
 
 function Children({ children }: Child) {
     return (
-        <div className="flex justify-center items-center p-4 bg-blue-200 rounded-md shadow-sm m-2">
+        <div className="flex justify-center items-center p-4 bg-blue-500 text-white rounded-md shadow-sm m-2">
             {children}
         </div>
     );
