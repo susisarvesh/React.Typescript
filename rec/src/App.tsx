@@ -1,11 +1,13 @@
 import User from './Components/User'
 import Children from './Components/Children'
 import MainEx from './Exercise/MainEx'
+import Provider from './Exercise/useContext/Provider'
 
 function App() {
   const github_sarvesh ="https://github.com/susisarvesh/React.Typescript"
   return (
     <div>
+      <Provider>
       <div className='flex justify-center items-center text-[40px] bg-slate-200 shadow-sm p-2 font-thin border border-b-2'>React + TypeScript <a href={github_sarvesh} target='_blank'><span className='ml-2 font-semibold text-red-600 hover:text-blue-500'> @susisarvesh</span></a></div>
       
       
@@ -19,7 +21,7 @@ function App() {
         </div>
 
       </Children> */}
-      
+      </Provider>
     </div>
   )
 }

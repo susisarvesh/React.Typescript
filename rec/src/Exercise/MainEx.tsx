@@ -53,6 +53,7 @@ function MainEx() {
             <Form></Form> */}
             <FocusInput></FocusInput>
             <ContactForm></ContactForm>
+            <Counter></Counter>
         </div>
     );
 }
